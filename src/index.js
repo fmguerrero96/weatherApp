@@ -6,4 +6,3 @@ weatherInfo.then(function(data){
     const info = data
     console.log(info)
 })
-
