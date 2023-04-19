@@ -7,7 +7,7 @@ let country = document.querySelector('.country')
 let degrees = document.querySelector('.degrees')
 let condition = document.querySelector('.condition')
 
-let currentCity = 'New York'
+let currentCity = 'Denia'
 
 const weatherInfo = getWeatherData(currentCity)
 
