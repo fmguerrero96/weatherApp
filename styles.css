@@ -85,6 +85,15 @@ body {
     margin-bottom: 7px;
 }
 
+.temp{
+    display: flex;
+}
+
+.degrees, .units{
+    font-size: 5rem;
+    color: white;
+}
+
 footer{
     width: 100vw;
     height: 10vh;
