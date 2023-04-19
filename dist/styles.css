@@ -15,4 +15,18 @@ menu, nav {
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.content {
+    border: 1px solid black;
+}
+
+footer{
+    border: 1px solid black;
+
+}
