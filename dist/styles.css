@@ -22,7 +22,6 @@ body {
 }
 
 .content {
-    border: 1px solid black;
     width: 100vw;
     height: 90vh;
     display: flex;
@@ -31,11 +30,45 @@ body {
 }
 
 .searchContainer{
-    margin-top: ;
+    margin: 5vh 0 5vh 0;
+}
+
+.searchCity{
+    width: 20vw;
+    height: 5vh;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: rgb(0, 79, 169);
+    border: none;
+    color: rgb(255, 156, 50);
+    font-size: 1.25rem;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.searchCity::placeholder{
+    color: rgb(163, 163, 163);
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.submitCity{
+    font-family: 'Ubuntu', sans-serif;
+    width: 7vw;
+    height: 5vh;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(255, 156, 50);
+    font-size: 1.25rem;
+    color: rgb(91, 91, 91);
+    cursor: pointer;
+}
+
+.submitCity:active{
+    background-color: aqua;
 }
 
 footer{
-    border: 1px solid black;
     width: 100vw;
     height: 10vh;
     display: flex;
