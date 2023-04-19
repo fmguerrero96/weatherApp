@@ -6,8 +6,7 @@ async function getWeatherData(city){
     let condition = weatherData.current.condition.text
     let tempF = weatherData.current.temp_f
     let tempC = weatherData.current.temp_c
-    let icon = weatherData.current.condition.icon
-    let info = [cityName, country, condition, tempC, tempF, icon]
+    let info = [cityName, country, condition, tempC, tempF]
     return info
 }
 

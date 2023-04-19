@@ -14,14 +14,10 @@ const weatherInfo = getWeatherData(currentCity)
 
 weatherInfo.then(function(data){ 
     let info = data
-    let img = info[5]
-    //let removeSlash = img.slice(2);
-    //console.log(removeSlash)
     city.textContent = info[0]
     country.textContent = info[1]
     condition.textContent = info[2]
     degrees.textContent = info[3]
-    icon.src = info[5]
 })
 
 searchButton.addEventListener('click', () => {
