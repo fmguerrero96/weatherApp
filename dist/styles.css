@@ -71,6 +71,7 @@ body {
 .location {
     display: flex;
     align-items: flex-end;
+    margin-top: 10vh;
 }
 
 .city {
@@ -94,10 +95,16 @@ body {
     color: white;
 }
 
+.condition {
+    font-size: 1.5rem;
+    color: white;
+}
+
 footer{
     width: 100vw;
     height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
 }
