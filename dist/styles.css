@@ -17,15 +17,28 @@ menu, nav {
 
 body {
     font-family: 'Ubuntu', sans-serif;
+    background: rgb(25,109,255);
+    background: linear-gradient(0deg, rgba(25,109,255,1) 0%, rgba(0,187,255,1) 100%);
+}
+
+.content {
+    border: 1px solid black;
+    width: 100vw;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.content {
-    border: 1px solid black;
+.searchContainer{
+    margin-top: ;
 }
 
 footer{
     border: 1px solid black;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
