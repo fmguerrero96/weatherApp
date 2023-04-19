@@ -5,9 +5,8 @@ async function getWeatherData(city){
         let cityName = weatherData.location.name
         let country = weatherData.location.country
         let condition = weatherData.current.condition.text
-        //let tempF = weatherData.current.temp_f
         let tempC = weatherData.current.temp_c
-        let info = [cityName, country, condition, tempC /*tempF*/]
+        let info = [cityName, country, condition, tempC]
         return info
     } catch (error) {
         alert(error)

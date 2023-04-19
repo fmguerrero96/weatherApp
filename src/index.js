@@ -6,7 +6,6 @@ let city = document.querySelector('.city')
 let country = document.querySelector('.country')
 let degrees = document.querySelector('.degrees')
 let condition = document.querySelector('.condition')
-let icon = document.querySelector('.icon')
 
 let currentCity = 'New York'
 
@@ -32,7 +31,6 @@ searchButton.addEventListener('click', () => {
         country.textContent = info[1]
         condition.textContent = info[2]
         degrees.textContent = info[3]
-        icon.src = info[5]
     })
     searchCity.value = ''
 })
